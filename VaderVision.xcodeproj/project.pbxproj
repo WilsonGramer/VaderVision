@@ -12,7 +12,24 @@
 		C8084E671F194802005A5C5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8084E651F194802005A5C5F /* Main.storyboard */; };
 		C8084E691F194802005A5C5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8084E681F194802005A5C5F /* Assets.xcassets */; };
 		C8084E6C1F194802005A5C5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8084E6A1F194802005A5C5F /* LaunchScreen.storyboard */; };
+		C83A3AD61F1A843A0012B2DC /* cardiac.gif in Resources */ = {isa = PBXBuildFile; fileRef = C83A3AD51F1A843A0012B2DC /* cardiac.gif */; };
+		C8AB6D921F1A8E4000431695 /* graph.gif in Resources */ = {isa = PBXBuildFile; fileRef = C8AB6D911F1A8E4000431695 /* graph.gif */; };
+		C8AB6D941F1A8E5200431695 /* graph2.gif in Resources */ = {isa = PBXBuildFile; fileRef = C8AB6D931F1A8E5200431695 /* graph2.gif */; };
+		C8AB6D961F1AA2BE00431695 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = C8AB6D951F1AA2BE00431695 /* launch.png */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C868A7B21F19B3810000227E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C8084E5E1F194802005A5C5F /* VaderVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VaderVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +39,10 @@
 		C8084E681F194802005A5C5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8084E6B1F194802005A5C5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8084E6D1F194802005A5C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C83A3AD51F1A843A0012B2DC /* cardiac.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cardiac.gif; sourceTree = "<group>"; };
+		C8AB6D911F1A8E4000431695 /* graph.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = graph.gif; sourceTree = "<group>"; };
+		C8AB6D931F1A8E5200431695 /* graph2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = graph2.gif; sourceTree = "<group>"; };
+		C8AB6D951F1AA2BE00431695 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +75,7 @@
 		C8084E601F194802005A5C5F /* VaderVision */ = {
 			isa = PBXGroup;
 			children = (
+				C83A3AD41F1A84270012B2DC /* res */,
 				C8084E611F194802005A5C5F /* AppDelegate.swift */,
 				C8084E631F194802005A5C5F /* ViewController.swift */,
 				C8084E651F194802005A5C5F /* Main.storyboard */,
@@ -62,6 +84,17 @@
 				C8084E6D1F194802005A5C5F /* Info.plist */,
 			);
 			path = VaderVision;
+			sourceTree = "<group>";
+		};
+		C83A3AD41F1A84270012B2DC /* res */ = {
+			isa = PBXGroup;
+			children = (
+				C83A3AD51F1A843A0012B2DC /* cardiac.gif */,
+				C8AB6D911F1A8E4000431695 /* graph.gif */,
+				C8AB6D931F1A8E5200431695 /* graph2.gif */,
+				C8AB6D951F1AA2BE00431695 /* launch.png */,
+			);
+			path = res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +107,7 @@
 				C8084E5A1F194802005A5C5F /* Sources */,
 				C8084E5B1F194802005A5C5F /* Frameworks */,
 				C8084E5C1F194802005A5C5F /* Resources */,
+				C868A7B21F19B3810000227E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +130,7 @@
 				TargetAttributes = {
 					C8084E5D1F194802005A5C5F = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 					};
 				};
 			};
@@ -122,8 +157,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8AB6D961F1AA2BE00431695 /* launch.png in Resources */,
+				C8AB6D941F1A8E5200431695 /* graph2.gif in Resources */,
 				C8084E6C1F194802005A5C5F /* LaunchScreen.storyboard in Resources */,
 				C8084E691F194802005A5C5F /* Assets.xcassets in Resources */,
+				C83A3AD61F1A843A0012B2DC /* cardiac.gif in Resources */,
+				C8AB6D921F1A8E4000431695 /* graph.gif in Resources */,
 				C8084E671F194802005A5C5F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +317,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.neef.ios.ar.VaderVision;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -292,6 +332,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.neef.ios.ar.VaderVision;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -316,6 +357,7 @@
 				C8084E721F194802005A5C5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
