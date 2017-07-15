@@ -5,4 +5,4 @@ A VR camera app that tints the camera red, and includes small animated "widgets"
 
 Copyright © 2017 Wilson Gramer. All rights reserved.
 
-Star Wars and Darth Vader belong to Lucasarts Ltd.
+Star Wars and Darth Vader belong to Lucasfilm Ltd.
